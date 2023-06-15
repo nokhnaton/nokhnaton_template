@@ -1,12 +1,9 @@
-<script setup lang="ts">
-import isMobile from 'ismobilejs'
-const isPhone = isMobile().phone
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
     <div>
-      <RouterLink :class="$style.linkText" to="/">Home</RouterLink>
+      <RouterLink to="/">Home</RouterLink>
     </div>
   </div>
 </template>
